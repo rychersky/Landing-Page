@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+div.content-wrapper {
+  max-width: 820px;
+  width: 100%;
+  padding: 0 20px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  padding-top: 10px;
+}
+
+header div.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+header img {
+  width: 5rem;
+  border: 1px solid black;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 24px;
+}
+
+header li {
+  list-style: none;
+}
+
+header a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+header a:hover {
+  border-bottom: 2px solid white;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+section.first {
+  background-color: #1f2937;
+  padding: 75px 0 100px;
+}
+
+section.first div.first-section-container {
+  display: flex;
+  gap: 20px;
+}
+
+section.first div.first-section-container > * {
+  width: 50%;
+}
+
+section.first h2 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+  margin: 0;
+}
+
+section.first p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 0;
+}
+
+section.first button {
+  background-color: #3882f6;
+  border-radius: 6px;
+  border: none;
+  padding: 8px 24px;
+  margin-top: 16px;
+}
+
+section.first img {
+  max-width: 100%;
+}
+
+section.second {
+  padding: 40px 0 100px;
+}
+
+section.second div.second-section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section.second h2 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+}
+
+section.second ul {
+  margin: 30px 50px 0;
+  display: flex;
+  gap: 40px;
+}
+
+section.second li {
+  list-style: none;
+}
+
+section.second img {
+  width: 100%;
+  border: 2px solid #3882f6;
+  border-radius: 8px;
+}
+
+section.second p {
+  text-align: center;
+  font-size: 14px;
+}
+
+section.third {
+  background-color: #e5e7eb;
+  padding: 80px 0 70px;
+}
+
+section.third figure {
+  margin: 0 80px;
+}
+
+section.third p {
+  font-size: 36px;
+  font-style: italic;
+  opacity: 80%;
+  color: #1f2937;
+}
+
+section.third figcaption {
+  margin-top: 20px;
+  text-align: end;
+  font-weight: bold;
+}
+
+section.fourth {
+  padding: 80px 0;
+}
+
+section.fourth div.cta-card {
+  background-color: #3882f6;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 60px 80px;
+}
+
+section.fourth h3 {
+  color: #f9faf8;
+}
+
+section.fourth p {
+  color: #e5e7eb;
+}
+
+section.fourth button {
+  background-color: #3882f6;
+  border: solid 2px #f9faf8;
+  border-radius: 6px;
+  color: #f9faf8;
+  padding: 0px 32px;
+  max-height: 30px;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
